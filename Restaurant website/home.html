@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Boucherie</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #121212;
+            color: #ddd;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: rgba(0, 0, 0, 0.9);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #ffffff;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #414040;
+        }
+
+        nav ul li a.active {
+        border-bottom: 2px solid #868581;
+        padding-bottom: 2px;
+        }
+
+
+        .top-right {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .search-bar {
+            padding: 6px;
+            border: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            width: 130px;
+        }
+
+        .basket-link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .basket-link:hover {
+            color: #414040;
+        }
+
+        .menu-section {
+            text-align: center;
+            padding: 80px 20px;
+            background: url('home.jpeg') no-repeat center center/cover;
+            color: #fff;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu-section h2 {
+            font-size: 1.8rem;
+        }
+
+        .menu-button {
+            margin-top: 15px;
+            padding: 12px 25px;
+            color: #ccc;
+            background: #333;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .menu-button:hover {
+            background: #868581;
+            color: #000;
+        }
+
+        .about-us {
+            text-align: center;
+            padding: 50px 40px;
+            background: #1e1e1e;
+            color: #ccc;
+        }
+
+        .categories {
+            text-align: center;
+            padding: 50px 20px;
+            background-color:#ccc;
+            color: #000000;
+        }
+
+        .categories h3 {
+            font-size: 1.8rem;
+        }
+
+        .category-item {
+            display: inline-block;
+            margin: 8px;
+            text-align: center;
+        }
+
+        .category-item img {
+            width: 350px;
+            height: 250px;
+            border-radius: 0px;
+        }
+
+        .category-link {
+            display: block;
+            margin-top: 8px;
+            padding: 8px 15px;
+            background: #333;
+            color: #ccc;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .category-link:hover {
+            background: #868581;
+            color: #000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>La Boucherie</h1>
+        <nav class="nav-container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="top-right">
+            <input type="text" name="query" placeholder="Search..." class="search-bar">
+            <a href="basket.html" class="basket-link">🛒 Basket</a>
+        </div>
+    </header>
+
+    <section class="menu-section">
+        <h2>Discover Exquisite Dining</h2>
+        <a href="menu.html" class="menu-button">View Menu</a>
+    </section>
+
+    <section class="about-us">
+        <h2>About Us</h2>
+        <p>Welcome to La Boucherie, where culinary excellence meets a cozy ambiance. Our chefs craft delightful dishes using the finest ingredients, ensuring an unforgettable dining experience.</p>
+    </section>
+
+    <section class="categories">
+        <h3>Popular Dishes</h3>
+        <div class="category-item">
+            <img src="appetizer1.jpeg" alt="Bruschetta"class="category-item">
+            <h3 class="category-link">Bruschetta</h3>
+        </div>
+        <div class="category-item">
+            <img src="main2.jpeg" alt="Salmon" class="category-item">
+            <h3 class="category-link" >Salmon Fillet</h3>
+        </div>
+        <div class="category-item">
+            <img src="dessert2.jpeg" alt="Chocolate Lava Cake" class="category-item">
+            <h3 class="category-link">Chocolate Lava Cake</h3>
+        </div>
+    </section>
+
+    <footer>
+        <p>+94 76 556 7890 | La Boucherie@restaurant.com</p>
+        <p>&copy; 2025 La Boucherie Restaurant. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Highlight active link based on current page
+        const currentPage = window.location.pathname.split("/").pop();
+        const navLinks = document.querySelectorAll("nav ul li a");
+      
+        navLinks.forEach(link => {
+          if (link.getAttribute("href") === currentPage) {
+            link.classList.add("active");
+          }
+        });
+      </script>
+      
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Confirmation</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #121212;
+      color: #ddd;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: rgba(0, 0, 0, 0.9);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #ffffff;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #414040;
+    }
+
+    .top-right {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+
+    .search-bar {
+      padding: 6px;
+      border: none;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      width: 130px;
+      background-color: #ffffff;
+    }
+
+    .basket-link {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .basket-link:hover {
+      color: #414040;
+    }
+
+    .confirmation-container {
+      max-width: 600px;
+      margin: 80px auto;
+      padding: 30px;
+      background: #1a1a1a;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .confirmation-container h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #ccc;
+    }
+
+    .confirmation-container p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .confirmation-container a {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #ccc;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .confirmation-container a:hover {
+      background-color: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #000;
+      color: #fff;
+      margin-top: 80px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>La Boucherie</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="top-right">
+      <input type="text" class="search-bar" placeholder="Search..." />
+      <a href="basket.html" class="basket-link">🛒 Basket</a>
+    </div>
+  </header>
+
+  <div class="confirmation-container">
+    <h2> Order Confirmed!</h2>
+    <p>Thank you for placing your order with La Boucherie.</p>
+    <p>We’ve received your order and it is now being prepared. You will receive an email confirmation shortly.</p>
+    <a href="menu.html">Back to Menu</a>
+  </div>
+
+  <footer>
+    <p>+94 76 556 7890 | LaBoucherie@restaurant.com</p>
+    <p>&copy; 2025 La Boucherie Restaurant. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <item id="bruschetta">
+    <description>Grilled bread rubbed with garlic and topped with tomatoes, olive oil, and herbs.</description>
+    <ingredients>Tomatoes, Basil, Garlic, Olive Oil, Baguette</ingredients>
+    <review>Perfectly crispy with a fresh, tangy topping. A refreshing starter!</review>
+  </item>
+
+  <item id="Stuffed Mushrooms">
+    <description>Oven-baked mushrooms filled with herbed cheese and breadcrumbs.</description>
+    <ingredients>Mushrooms, Cheese, Herbs, Breadcrumbs</ingredients>
+    <review>Creamy and flavorful. A hit for cheese lovers!</review>
+  </item>
+
+  <item id="Spring Rolls">
+    <description>Crispy rolls stuffed with a mixture of vegetables and chicken.</description>
+    <ingredients>Carrot, Cabbage, Chicken, Wrappers, Soy Sauce</ingredients>
+    <review>Crunchy on the outside, packed with savory flavor inside. Delicious!</review>
+  </item>
+
+  <item id="steak">
+    <description>Juicy grilled steak cooked to perfection.</description>
+    <ingredients>Beef Steak, Garlic Butter, Salt, Pepper</ingredients>
+    <review>Cooked just right, tender and full of flavor. Must try!</review>
+  </item>
+
+  <item id="Salmon">
+    <description>Fresh salmon fillet grilled and topped with lemon butter sauce.</description>
+    <ingredients>Salmon, Lemon, Butter, Dill, Garlic</ingredients>
+    <review>Light and flaky with a rich buttery sauce. Excellent for seafood lovers.</review>
+  </item>
+
+  <item id="Pasta Alfredo">
+    <description>Creamy Alfredo pasta topped with parmesan and mushrooms.</description>
+    <ingredients>Pasta, Cream, Parmesan, Mushrooms, Garlic</ingredients>
+    <review>Smooth and creamy. Comfort food at its finest!</review>
+  </item>
+
+  <item id="cheesecake">
+    <description>Classic baked cheesecake with a buttery biscuit base.</description>
+    <ingredients>Cream Cheese, Sugar, Eggs, Biscuit Crust</ingredients>
+    <review>Silky and rich with just the right sweetness. A dessert to remember.</review>
+  </item>
+
+  <item id="Chocolate Lava Cake">
+    <description>Warm chocolate cake with a rich molten center.</description>
+    <ingredients>Dark Chocolate, Flour, Eggs, Butter, Sugar</ingredients>
+    <review>Heavenly! The gooey center was just perfect.</review>
+  </item>
+
+  <item id="Fruit Tart">
+    <description>Fresh tart filled with custard and topped with seasonal fruits.</description>
+    <ingredients>Pastry, Custard, Kiwi, Strawberries, Blueberries</ingredients>
+    <review>Light, fruity, and visually stunning. A great finish to the meal!</review>
+  </item>
+</menu>
